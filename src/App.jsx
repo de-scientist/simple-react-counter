@@ -1,6 +1,7 @@
 //import the useState from react
 import { useState } from "react"
 
+//create the controller
 function App() {
   const [number, setNumber] = useState(1);
   const [interpretation, setInterpretation]
