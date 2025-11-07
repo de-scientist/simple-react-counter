@@ -25,6 +25,10 @@ function decrementNumber() {
   setNumber(newNumber);     //update the state
   interpretNumber(newNumber); //update message
 }
+
+//function: interpretNumber
+//Description: Checks whether a number is even or odd and updates the interpretation message
+
   return (
     <div>
       //button for incrementing a variable
