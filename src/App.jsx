@@ -23,6 +23,7 @@ function incrementNumber() {
 function decrementNumber() {
   const newNumber = number - 1;  // decrement by 1
   setNumber(newNumber);     //update the state
+  interpretNumber(newNumber); //update message
 }
   return (
     <div>
