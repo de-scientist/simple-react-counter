@@ -50,10 +50,13 @@ function interpretNumber(value) {
       <h2>{number}</h2>
 
       {/* display the interpretation of the number */ }
-      <h2>10 is even</h2>
-      //button for decrementing a variable
+      <h2>{interpretation}</h2>
+
+      {/*button for decrementing number */}
       <button onClick={decrementNumber}>-</button>
     </div>
-  )
+  );
 }
+
+//export the App component for use in my project
 export default App
