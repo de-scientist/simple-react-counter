@@ -13,6 +13,7 @@ function App() {
 //function: incrementNumber
 //Description: Increases the number by 1 and updates the interpretation
 function incrementNumber() {
+  const newNumber = number + 1; //increment by 1
   setNumber(number + 1);
 }
 
