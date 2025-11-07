@@ -18,7 +18,8 @@ function incrementNumber() {
   interpretNumber(newNumber) //update the message
 }
 
-//add functionality for decrementing a variable onClick of the minus button
+//function: decrementNumber
+//Description: Decreases the number by 1 and updates the interpretation
 function decrementNumber() {
   setNumber(number - 1);
 }
