@@ -37,6 +37,10 @@ function interpretNumber(value) {
   }
 }
 
+//JSX Layout:
+//- Two buttons for incrementing/decrementing
+//- Two <h2> elements for displaying the number and message
+
   return (
     <div>
       //button for incrementing a variable
