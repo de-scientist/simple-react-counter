@@ -1,4 +1,9 @@
+import { useState } from "react"
+
 function App() {
+  const [number, setNumber] = useState(1);
+  const [interpretation, setInterpretation]
+= useState
   return (
     <div>
       <button>+</button>
