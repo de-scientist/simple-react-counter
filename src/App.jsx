@@ -42,18 +42,51 @@ function interpretNumber(value) {
 //- Two <h2> elements for displaying the number and message
 
   return (
-    <div style={{ textAlign: "center", marginTop: "50px" }}>
+    <div   style={{
+        display: "flex",
+        flexDirection: "column", // Stack items vertically
+        alignItems: "center", // Center horizontally
+        justifyContent: "center", // Center vertically
+        height: "100vh", // Take full screen height
+        background: "linear-gradient(to right, #4facfe, #00f2fe)", // Gradient background
+        color: "#fff", // White text
+        fontFamily: "Poppins, sans-serif",
+      }}>
       {/*button for incrementing the number*/}
-      <button onClick={incrementNumber}>+</button>
+      <button onClick={incrementNumber} style={{
+            backgroundColor: "#4caf50",
+            color: "#fff",
+            border: "none",
+            padding: "15px 30px",
+            fontSize: "1.5rem",
+            borderRadius: "10px",
+            cursor: "pointer",
+            transition: "0.3s",
+          }}
+          onMouseEnter={(e) => (e.target.style.backgroundColor = "#43a047")}
+          onMouseLeave={(e) => (e.target.style.backgroundColor = "#4caf50")}
+        >+</button>
 
       {/*display the current number*/}
-      <h2>{number}</h2>
+      <h2 style={{ fontSize: "4rem", margin: "10px 0" }}>{number}</h2>
 
       {/* display the interpretation of the number */ }
-      <h2>{interpretation}</h2>
+      <h2  style={{ fontSize: "1.5rem", marginBottom: "30px" }}>{interpretation}</h2>
 
       {/*button for decrementing number */}
-      <button onClick={decrementNumber}>-</button>
+      <button onClick={decrementNumber} style={{
+            backgroundColor: "#ff4b5c",
+            color: "#fff",
+            border: "none",
+            padding: "15px 30px",
+            fontSize: "1.5rem",
+            borderRadius: "10px",
+            cursor: "pointer",
+            transition: "0.3s",
+          }}
+          onMouseEnter={(e) => (e.target.style.backgroundColor = "#ff2a3a")}
+          onMouseLeave={(e) => (e.target.style.backgroundColor = "#ff4b5c")}
+        >-</button>
     </div>
   );
 }
