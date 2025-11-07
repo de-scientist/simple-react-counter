@@ -1,4 +1,4 @@
-//import the useState from react
+//import the useState hook from react to manage component state
 import { useState } from "react"
 
 //create the controller
