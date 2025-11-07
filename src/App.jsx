@@ -13,6 +13,7 @@ function incrementNumber() {
   setNumber(number + 1);
 }
 
+//add functionality for decrementing a variable onClick of the minus button
 function decrementNumber() {
   setNumber(number - 1);
 }
