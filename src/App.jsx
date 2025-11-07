@@ -42,12 +42,14 @@ function interpretNumber(value) {
 //- Two <h2> elements for displaying the number and message
 
   return (
-    <div>
-      //button for incrementing a variable
+    <div style={{ textAlign: "center", marginTop: "50px" }}>
+      {/*button for incrementing the number*/}
       <button onClick={incrementNumber}>+</button>
-      //set the number in a h2
-      <h2>10</h2>
-      //setInterpretation in a h2 
+
+      {/*display the current number*/}
+      <h2>{number}</h2>
+
+      {/* display the interpretation of the number */ }
       <h2>10 is even</h2>
       //button for decrementing a variable
       <button onClick={decrementNumber}>-</button>
