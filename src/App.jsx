@@ -15,6 +15,7 @@ function App() {
 function incrementNumber() {
   const newNumber = number + 1; //increment by 1
   setNumber(newNumber);  // update the state
+  interpretNumber(newNumber) //update the message
 }
 
 //add functionality for decrementing a variable onClick of the minus button
