@@ -28,6 +28,14 @@ function decrementNumber() {
 
 //function: interpretNumber
 //Description: Checks whether a number is even or odd and updates the interpretation message
+function interpretNumber(value) {
+  //check if when the value is divided by 2 gives a % of 0
+  if (value % 2 === 0) {
+    setInterpretation(`${value} is an even number`);
+  } else {
+    
+  }
+}
 
   return (
     <div>
