@@ -10,7 +10,8 @@ function App() {
    const [interpretation, setInterpretation]
 = useState('2 is an even number')
 
-//add functionality for incrementing a variable onClick of the plus button
+//function: incrementNumber
+//Description: Increases the number by 1 and updates the interpretation
 function incrementNumber() {
   setNumber(number + 1);
 }
