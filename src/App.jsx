@@ -31,7 +31,7 @@ function decrementNumber() {
 function interpretNumber(value) {
   //check if when the value is divided by 2 gives a % of 0
   if (value % 2 === 0) {
-    setInterpretation(`${value} is an even number`);
+    setInterpretation(`${value} is an even number`); //message returned if the % === 0
   } else {
     
   }
