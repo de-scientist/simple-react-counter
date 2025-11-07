@@ -53,6 +53,22 @@ function App() {
         fontFamily: "Poppins, sans-serif",
       }}
     >
+
+<h1
+        style={{
+          fontSize: "2.8rem",
+          letterSpacing: "1px",
+          marginBottom: "30px",
+          textTransform: "uppercase",
+          background: "linear-gradient(to right, #ffcc70, #ff8177)",
+          WebkitBackgroundClip: "text",
+          WebkitTextFillColor: "transparent",
+          fontWeight: "700",
+        }}
+      >
+        Simple React Counter App
+      </h1>
+
       {/*button for incrementing the number*/}
       <button
         onClick={incrementNumber}
