@@ -5,7 +5,9 @@ import { useState } from "react"
 function App() {
   //initialize the 'number' state variable with a stating value of 1
   const [number, setNumber] = useState(1);
-  const [interpretation, setInterpretation]
+
+  //initialize 'interpretation' - a message describing the current number
+   const [interpretation, setInterpretation]
 = useState('2 is an even number')
 
 //add functionality for incrementing a variable onClick of the plus button
