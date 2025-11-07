@@ -14,7 +14,7 @@ function App() {
 //Description: Increases the number by 1 and updates the interpretation
 function incrementNumber() {
   const newNumber = number + 1; //increment by 1
-  setNumber(number + 1);
+  setNumber(newNumber);  // update the state
 }
 
 //add functionality for decrementing a variable onClick of the minus button
