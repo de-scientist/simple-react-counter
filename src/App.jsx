@@ -33,7 +33,7 @@ function interpretNumber(value) {
   if (value % 2 === 0) {
     setInterpretation(`${value} is an even number`); //message returned if the % === 0
   } else {
-    
+    setInterpretation(`${value} is an odd number`); //message returned if the % !== 0
   }
 }
 
