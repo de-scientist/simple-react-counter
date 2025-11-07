@@ -21,7 +21,8 @@ function incrementNumber() {
 //function: decrementNumber
 //Description: Decreases the number by 1 and updates the interpretation
 function decrementNumber() {
-  setNumber(number - 1);
+  const newNumber = number - 1;  // decrement by 1
+  setNumber(number);
 }
   return (
     <div>
