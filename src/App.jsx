@@ -3,6 +3,7 @@ import { useState } from "react"
 
 //create the controller
 function App() {
+  //initialize variables
   const [number, setNumber] = useState(1);
   const [interpretation, setInterpretation]
 = useState('2 is an even number')
