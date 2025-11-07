@@ -21,6 +21,7 @@ function decrementNumber() {
     <div>
       //button for incrementing a variable
       <button onClick={incrementNumber}>+</button>
+      //set the number in a h2
       <h2>10</h2>
       <h2>10 is even</h2>
       //button for decrementing a variable
