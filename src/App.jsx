@@ -1,9 +1,9 @@
 //import the useState hook from react to manage component state
 import { useState } from "react"
 
-//create the controller
+//create the main controller component
 function App() {
-  //initialize variables
+  //initialize the 'number' state variable with a stating value of 1
   const [number, setNumber] = useState(1);
   const [interpretation, setInterpretation]
 = useState('2 is an even number')
